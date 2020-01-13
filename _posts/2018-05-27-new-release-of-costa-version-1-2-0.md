@@ -6,7 +6,7 @@ author: Jacob Palm
 layout: post
 guid: http://jacobpalm.dk/?p=207
 permalink: /2018/05/27/new-release-of-costa-version-1-2-0/
-img: /assets/img/costa_featured3.png
+img: costa_featured3.png
 categories:
   - Costa
 ---
@@ -16,6 +16,6 @@ The main feature in this new version is support for multiple profiles. It is now
 
 ![The Costa GUI version 1.2.0"]({{site.baseurl}}/assets/img/120.png)
 
-More information and download links can be found at [http://costa.jacobpalm.dk](http://costa.jacobpalm.dk/).
+More information and download links can be found at [https://costa.jacobpalm.dk](https://costa.jacobpalm.dk/).
 
-For those who are interested in development, [https://github.com/jacobpalm/costa](visit GitHub) to have a look at the source code.
+For those who are interested in development, [visit GitHub](https://github.com/jacobpalm/costa) to have a look at the source code.
