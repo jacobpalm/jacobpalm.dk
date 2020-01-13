@@ -16,6 +16,6 @@ There's not much new to see. I added a "Tip of the Day" dialog, and some new ico
 
 ![The Costa GUI version 1.1.0"]({{site.baseurl}}/assets/img/110.png)
 
-Head on over to [http://costa.jacobpalm.dk](http://costa.jacobpalm.dk/) to grab a copy free of charge. The changelog for version 1.1.0 can be found in the Archive.
+Head on over to <https://costa.jacobpalm.dk> to grab a copy free of charge. The changelog for version 1.1.0 can be found in the Archive.
 
 For those who are interested in development, [visit GitHub](https://github.com/jacobpalm/costa) to have a look at the source code. It's not the most fancy codebase as it has been coded on-and-off over the past decade, but it's stable and fairly compact.
