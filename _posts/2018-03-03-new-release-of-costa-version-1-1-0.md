@@ -6,7 +6,7 @@ author: Jacob Palm
 layout: post
 guid: http://jacobpalm.dk/?p=171
 permalink: /2018/03/03/new-release-of-costa-version-1-1-0/
-image: /assets/img/costa_featured2.png
+img: /assets/img/costa_featured2.png
 categories:
   - Costa
 ---

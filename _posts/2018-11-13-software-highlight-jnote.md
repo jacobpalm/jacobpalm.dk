@@ -6,7 +6,7 @@ author: Jacob Palm
 layout: post
 guid: http://jacobpalm.dk/?p=233
 permalink: /2018/11/13/software-highlight-jnote/
-image: /assets/img/jnote_featured2.png
+img: /assets/img/jnote_featured2.png
 categories:
   - Software
 tags:

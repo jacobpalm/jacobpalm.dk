@@ -6,7 +6,7 @@ author: Jacob Palm
 layout: post
 guid: http://jacobpalm.dk/?p=22
 permalink: /2016/11/17/the-costa-gui/
-image: /assets/img/costa_featured.png
+img: /assets/img/costa_featured.png
 categories:
   - Costa
   - Projects
