@@ -6,7 +6,7 @@ author: Jacob Palm
 layout: post
 guid: http://jacobpalm.dk/?p=233
 permalink: /2018/11/13/software-highlight-jnote/
-image: /wp-content/uploads/2019/05/jnote_featured2.png
+image: /assets/img/jnote_featured2.png
 categories:
   - Software
 tags:
@@ -17,8 +17,6 @@ tags:
 I usually advocate free (and preferably open-source) software only, but I have come across a Windows application that merits an exception to this rule.
 
 Over the years, I have used many different software solutions for note-taking, and to keep track of my tasks in various projects. Microsoft OneNote, Evernote, plain text files &#8211; and countless others.
-
-<!--more-->
 
 While software like OneNote and Evernote have many great features, I often find them far to cumbersome and bloated for my purposes. For that reason, I have always reverted back to my old ways and used plain text files. These are small in size, and can be opened everywhere &#8211; at the sacrifice of any real functionality and formatting.
 

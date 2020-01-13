@@ -6,7 +6,7 @@ author: Jacob Palm
 layout: post
 guid: http://jacobpalm.dk/?p=111
 permalink: /2017/10/02/in-support-of-open-source/
-image: /wp-content/uploads/2017/10/opensource.jpg
+image: /assets/img/opensource.jpg
 categories:
   - Costa
 tags:
