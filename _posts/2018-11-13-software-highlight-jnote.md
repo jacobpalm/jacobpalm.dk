@@ -34,5 +34,5 @@ On top of this, JNote has an extensive task-management functionality baked in. Y
 
 Be it project management, simple to-do lists, documentation or note-taking - JNote has become an integral part of everything I work on. Simple, light-weight and full of useful features. Highly recommended!
 
-> ![Screenshot of JNote"]({{site.baseurl}}/assets/img/color_logo_transparent-150x150.png)
-> More information about JNote can be found at the website of its developer, (Jackson Software)[http://jacksonsoftware.io/jnote/].
+> ![Screenshot of JNote"]({{site.baseurl}}/assets/img/color_logo_transparent.png =150x150)
+> More information about JNote can be found at the website of its developer, [Jackson Software](http://jacksonsoftware.io/jnote/).
