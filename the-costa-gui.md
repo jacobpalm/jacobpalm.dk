@@ -3,7 +3,7 @@ id: 342
 title: The Costa GUI
 date: 2019-03-18T21:15:00+01:00
 author: Jacob Palm
-layout: page
+layout: main
 guid: http://jacobpalm.dk/?page_id=342
 permalink: /the-costa-gui/
 imge: costa_featured.png
