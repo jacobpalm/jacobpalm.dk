@@ -26,13 +26,13 @@ Some time ago I stumbled across the perfect software for my needs - JNote. Note 
 
 Take a look at the screenshot below, and see how the same file looks great in Notepad, but really comes to life in JNote:
 
-![Screenshot of JNote"]({{site.baseurl}}/assets/img/jnote.png)
+![Screenshot of JNote]({{site.baseurl}}/assets/img/jnote.png)
 
 On top of this, JNote has an extensive task-management functionality baked in. You can insert tasks, and mark them with progress, responsible person, comments, and status - all in plain text. You can then get a graphical list view of all tasks in a document. You can also set reminders on tasks, or anywhere in a document really, and JNote will show a notification when that time comes. It's also possible to link to other text files, and then use an ingenious nested crawl-search to get a list of any occurrence of a search term, in any linked file.
 
-![Screenshot of JNote"]({{site.baseurl}}/assets/img/jnote_2.png)
+![Screenshot of JNote]({{site.baseurl}}/assets/img/jnote_2.png)
 
 Be it project management, simple to-do lists, documentation or note-taking - JNote has become an integral part of everything I work on. Simple, light-weight and full of useful features. Highly recommended!
 
-> ![Screenshot of JNote"]({{site.baseurl}}/assets/img/color_logo_transparent.png)
+> ![JNote logo]({{site.baseurl}}/assets/img/color_logo_transparent.png)
 > More information about JNote can be found at the website of its developer, [Jackson Software](http://jacksonsoftware.io/jnote/).

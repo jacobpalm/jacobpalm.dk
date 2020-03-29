@@ -17,4 +17,4 @@ Most development took place between 2004 and 2012, when version 1.0 was released
 
 [Costa has it's own homepage](https://costa.jacobpalm.dk), where you can learn more and download the program free of charge.
 
-![The Costa GUI"]({{site.baseurl}}/assets/img/screen02.png)
+![The Costa GUI]({{site.baseurl}}/assets/img/screen02.png)

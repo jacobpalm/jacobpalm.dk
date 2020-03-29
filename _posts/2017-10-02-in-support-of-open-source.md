@@ -23,7 +23,7 @@ As of September 2017, the full source code is available on Github:
 <https://github.com/jacobpalm/costa>
 
 
-![The Costa GUI source code on Github"]({{site.baseurl}}/assets/img/costa_github_code.png)
+![The Costa GUI source code on Github]({{site.baseurl}}/assets/img/costa_github_code.png)
 
 This also fulfills a long overdue promise I made several years ago on my old GUI related website, where I declared that the code would be available once version 1.0 was released.
 
