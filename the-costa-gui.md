@@ -6,7 +6,7 @@ author: Jacob Palm
 layout: main
 guid: http://jacobpalm.dk/?page_id=342
 permalink: /the-costa-gui/
-imge: costa_featured.png
+img: costa_featured.png
 ---
 A hobby coding project of mine, Costa is a program which runs on top of MS-DOS or compatible operating systems. The aim is to replace the DOS-prompt with a clean, user-friendly interface – a so called GUI (Graphical User Interface). Costa comes with full mouse and keyboard support, and a bunch of useful accessories.
 
