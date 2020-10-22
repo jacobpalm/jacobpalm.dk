@@ -1,6 +1,6 @@
 ---
-id: 233
-title: 'Software highlight: JNote'
+id: 234
+title: 'New release of Costa - version 1.3.0'
 date: 2020-10-22T18:32:14+01:00
 author: Jacob Palm
 layout: post
