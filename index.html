@@ -9,10 +9,10 @@ layout: default
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae iste dolores architecto. Qui, corrupti dolorem nostrum, quidem doloribus est reiciendis alias ipsam debitis nemo suscipit odio laboriosam quas iste.</p>
 
     <ul>
-        <li><a href="{{ site.url }}/about">About</a></li>
         <li><a href="{{ site.url }}/posts">Posts</a></li>
-        <li><a href="{{ site.url }}/pages/costa/">The Costa GUI</a></li>
-
-    </ul>
+        {% for subpage in site.pages %}
+          <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
+        {% endfor %}
+        </ul>
   </div>
 </div>
