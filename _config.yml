@@ -23,3 +23,10 @@ paginate: 8
 paginate_path: "/posts/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+defaults:
+-
+    scope:
+      type: "posts"
+    values:
+      permalink: posts/:title/
