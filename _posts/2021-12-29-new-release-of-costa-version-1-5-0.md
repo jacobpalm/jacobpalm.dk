@@ -5,7 +5,7 @@ date: 2021-12-29T19:30:00+01:00
 author: Jacob Palm
 layout: post
 guid: http://jacobpalm.dk/?p=235
-permalink: /2020/10/22/new-release-of-costa-version-1-5-0/
+permalink: /posts/new-release-of-costa-version-1-5-0/
 img: costa_featured6.png
 categories:
   - Costa
