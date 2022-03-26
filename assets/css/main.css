@@ -107,7 +107,7 @@ div.content {
   margin-right: 15px;
   text-align: left;
   display: inline-block;
-  width: 100%;
+  min-width: 90%;
 }
 
 .content a, .content a:visited {
