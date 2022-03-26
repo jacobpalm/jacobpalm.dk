@@ -1,10 +1,7 @@
 ---
-title: The Costa GUI
-date: 2016-11-17T22:48:28+01:00
-author: Jacob Palm
-layout: post
-permalink: /2016/11/17/the-costa-gui/
+title: 'The Costa GUI'
 img: costa_featured.png
+layout: post
 categories:
   - Costa
   - Projects

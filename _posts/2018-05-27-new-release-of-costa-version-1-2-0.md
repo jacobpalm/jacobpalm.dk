@@ -1,10 +1,7 @@
 ---
 title: 'New release of Costa - version 1.2.0'
-date: 2018-05-27T15:33:35+02:00
-author: Jacob Palm
-layout: post
-permalink: /2018/05/27/new-release-of-costa-version-1-2-0/
 img: costa_featured3.png
+layout: post
 categories:
   - Costa
 ---

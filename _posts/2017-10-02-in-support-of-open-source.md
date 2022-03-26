@@ -1,9 +1,6 @@
 ---
-title: In support of Open Source
-date: 2017-10-02T20:12:12+02:00
-author: Jacob Palm
+title: 'In support of Open Source'
 layout: post
-permalink: /2017/10/02/in-support-of-open-source/
 img: opensource.jpg
 categories:
   - Costa

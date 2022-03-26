@@ -1,10 +1,7 @@
 ---
 title: 'Software highlight: JNote'
-date: 2018-11-13T21:28:14+01:00
-author: Jacob Palm
-layout: post
-permalink: /2018/11/13/software-highlight-jnote/
 img: jnote_featured2.png
+layout: post
 categories:
   - Software
 tags:

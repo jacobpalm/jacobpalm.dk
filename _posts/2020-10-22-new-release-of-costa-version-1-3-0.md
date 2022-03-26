@@ -1,9 +1,7 @@
 ---
-date: 2020-10-22T18:32:14+01:00
-author: Jacob Palm
-layout: post
-permalink: /2020/10/22/new-release-of-costa-version-1-3-0/
+title: 'New release of Costa - version 1.3.0'
 img: costa_featured4.png
+layout: post
 categories:
   - Costa
 ---
