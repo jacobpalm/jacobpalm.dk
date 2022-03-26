@@ -1,10 +1,8 @@
 ---
-id: 111
 title: In support of Open Source
 date: 2017-10-02T20:12:12+02:00
 author: Jacob Palm
 layout: post
-guid: http://jacobpalm.dk/?p=111
 permalink: /2017/10/02/in-support-of-open-source/
 img: opensource.jpg
 categories:

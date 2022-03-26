@@ -1,10 +1,8 @@
 ---
-id: 22
 title: The Costa GUI
 date: 2016-11-17T22:48:28+01:00
 author: Jacob Palm
 layout: post
-guid: http://jacobpalm.dk/?p=22
 permalink: /2016/11/17/the-costa-gui/
 img: costa_featured.png
 categories:

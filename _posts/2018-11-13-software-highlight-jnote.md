@@ -1,10 +1,8 @@
 ---
-id: 233
 title: 'Software highlight: JNote'
 date: 2018-11-13T21:28:14+01:00
 author: Jacob Palm
 layout: post
-guid: http://jacobpalm.dk/?p=233
 permalink: /2018/11/13/software-highlight-jnote/
 img: jnote_featured2.png
 categories:

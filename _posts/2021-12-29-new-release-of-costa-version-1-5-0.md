@@ -1,11 +1,5 @@
 ---
-id: 234
-title: 'New release of Costa - version 1.5.0'
-date: 2021-12-29T19:30:00+01:00
-author: Jacob Palm
 layout: post
-guid: http://jacobpalm.dk/?p=235
-permalink: /posts/new-release-of-costa-version-1-5-0/
 img: costa_featured6.png
 categories:
   - Costa

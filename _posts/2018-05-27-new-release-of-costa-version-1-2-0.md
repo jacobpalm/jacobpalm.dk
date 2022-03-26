@@ -1,10 +1,8 @@
 ---
-id: 207
 title: 'New release of Costa - version 1.2.0'
 date: 2018-05-27T15:33:35+02:00
 author: Jacob Palm
 layout: post
-guid: http://jacobpalm.dk/?p=207
 permalink: /2018/05/27/new-release-of-costa-version-1-2-0/
 img: costa_featured3.png
 categories:
