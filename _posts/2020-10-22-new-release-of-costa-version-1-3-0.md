@@ -5,7 +5,7 @@ layout: post
 categories:
   - Costa
 ---
-After a 2&frac12; year hiatus, I have once again pulled the source code for my DOS based GUI, **Costa**, out of storage, and added some new features. This time around, I've implemented some bug fixes, and a whole new theme editor.
+After a 2&frac12; year hiatus, I have once again pulled the source code for my DOS based GUI, Costa, out of storage, and added some new features. This time around, I've implemented some bug fixes, and a whole new theme editor.
 
 With this new theme editor, users can now customize any color of the interface - either by modifying existing themes, or making their own. User submissions are welcome!
 

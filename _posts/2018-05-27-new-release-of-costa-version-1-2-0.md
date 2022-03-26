@@ -5,7 +5,7 @@ layout: post
 categories:
   - Costa
 ---
-Once again I have released a new version of my MS-DOS based graphical shell, **Costa**.
+Once again I have released a new version of my MS-DOS based graphical shell, Costa.
 
 The main feature in this new version is support for multiple profiles. It is now possible for several users to use the same installation of Costa, each with their own settings, theme and personal desktop. One user could also have separate profiles for work, play etc.
 

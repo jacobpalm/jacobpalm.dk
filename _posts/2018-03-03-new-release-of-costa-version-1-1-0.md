@@ -5,7 +5,7 @@ layout: post
 categories:
   - Costa
 ---
-Yesterday I released a new version of my long-time hobby coding project, the MS-DOS based graphical shell **Costa**.
+Yesterday I released a new version of my long-time hobby coding project, the MS-DOS based graphical shell Costa.
 
 There's not much new to see. I added a "Tip of the Day" dialog, and some new icons for you to choose from when creating desktop links, but mostly it's all about bugfixes and improved stability.
 
