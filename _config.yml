@@ -2,6 +2,7 @@ title: JacobPalm.dk
 description: Personal homepage of Jacob Palm
 permalink: ':title/'
 url: "https://jacobpalm.dk" # the base hostname & protocol for your site, e.g. http://example.com
+language: "en"
 
 # Author Settings
 author: Jacob Palm # add your name
