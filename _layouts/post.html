@@ -13,10 +13,4 @@ layout: main
   {{ page.date | date: "of %B, %Y" }}
 </div>
 
-{% if page.img %}
-  <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-{% else %}
-{% endif %}
-
-
 {{content | markdownify}}
