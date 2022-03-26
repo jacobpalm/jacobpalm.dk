@@ -6,13 +6,10 @@ layout: default
   <div class="content">
     <p>Welcome to JacobPalm.dk.</p>
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae iste dolores architecto. Qui, corrupti dolorem nostrum, quidem doloribus est reiciendis alias ipsam debitis nemo suscipit odio laboriosam quas iste.</p>
+    <p>Welcome to my corner of the World Wide Web. From time to time I use this site to post about some of the projects I'm tinkering on, and other times I share my thoughts and whatnot here. Have a look around!</p>
 
-    <ul>
-        <li><a href="{{ site.url }}/posts">Posts</a></li>
-        {% for subpage in site.pages %}
-          <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
-        {% endfor %}
-        </ul>
+    {% include pageoverview.html %}
+
+    <p>Also, have a look at my <a href="http://github.com/{{site.social-github}}">Github profile</a> to see what else I might be working on.</p>
   </div>
 </div>
