@@ -70,6 +70,7 @@ img {
 
 .buttonbar {
   text-align: center;
+  padding-bottom: 10px;
 }
 .buttonbar a, .buttonbar a:visited {
   text-decoration: none;
