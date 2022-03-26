@@ -32,6 +32,6 @@ defaults:
       permalink: posts/:title/
 
 collections:
-  subpages:
+  pages:
     output: true
     permalink: /:collection/:name
