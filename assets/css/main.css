@@ -102,6 +102,12 @@ div.centered {
   background-color: #0000AB;
 }
 
+div.left {
+  width: 100%;
+  text-align: left;
+  background-color: #0000AB;
+}
+
 div.content {
   margin-left: 15px;
   margin-right: 15px;
@@ -109,7 +115,6 @@ div.content {
   display: inline-block;
   min-width: 90%;
   max-width: 1000px;
-  background-color: #0000AB;
 }
 
 .content a, .content a:visited {
