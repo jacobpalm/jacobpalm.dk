@@ -108,6 +108,8 @@ div.content {
   text-align: left;
   display: inline-block;
   min-width: 90%;
+  max-width: 1000px;
+  background-color: #0000AB;
 }
 
 .content a, .content a:visited {

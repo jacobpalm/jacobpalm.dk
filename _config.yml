@@ -2,24 +2,15 @@ title: JacobPalm.dk
 description: Personal homepage of Jacob Palm
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+url: "https://jacobpalm.dk" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author: Jacob Palm # add your name
 author-img: jacobpalm.jpg # add your photo
 about-author: The personal homepage of Jacob Palm # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
 social-github: jacobpalm # add your Github handle
 social-linkedin: jacobpalmdk # add your Linkedin handle
 social-email: jacobpalmdk@icloud.com # add your Email address
-
-# Disqus
-discus-identifier: # add your discus identifier
-
-# Tracker
-analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
@@ -29,6 +20,6 @@ plugins:
   - jemoji
 
 paginate: 8
-paginate_path: "/page/:num"
+paginate_path: "/posts/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
