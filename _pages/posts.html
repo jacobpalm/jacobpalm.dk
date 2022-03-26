@@ -1,0 +1,19 @@
+---
+layout: main
+title: 'Posts'
+description: 'Read what I have on my mind, or news about projects I've been working on.'
+---
+
+<p></p>Here you can read what I have on my mind, or news about projects I've been working on.</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="buttonbar">
+  <a href="{{ site.url }}/">Go&nbsp;to&nbsp;front&nbsp;page</a>
+</p>
