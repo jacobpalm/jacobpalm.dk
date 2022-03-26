@@ -16,7 +16,7 @@ title: 'Posts'
         {% when '3' or '23' %}{{ day }}rd
         {% else %}{{ day }}th
       {% endcase %}
-      {{ page.date | date: "of %B, %Y" }}<br>
+      {{ post.date | date: "of %B, %Y" }}<br>
       {{ post.excerpt }}
     </li>
   {% endfor %}
