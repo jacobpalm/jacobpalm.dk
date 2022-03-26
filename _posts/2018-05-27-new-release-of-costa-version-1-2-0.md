@@ -14,7 +14,7 @@ Once again I have released a new version of my MS-DOS based graphical shell, **C
 
 The main feature in this new version is support for multiple profiles. It is now possible for several users to use the same installation of Costa, each with their own settings, theme and personal desktop. One user could also have separate profiles for work, play etc.
 
-![The Costa GUI version 1.2.0]({{site.baseurl}}/assets/img/120.png)
+![The Costa GUI version 1.2.0]({{site.url}}/assets/img/120.png)
 
 More information and download links can be found at <https://costa.jacobpalm.dk>.
 

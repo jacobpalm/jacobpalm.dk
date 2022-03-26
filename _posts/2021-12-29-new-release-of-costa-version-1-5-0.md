@@ -21,7 +21,7 @@ Massive speed improvements have been made to all file and disk related operation
 At the same time, I've added to option in Costas configuration to disable disk caching of the desktop. Disabling this results in more screen redraws, which on faster machines will result in a bit of flicker, but on old machines with a slow disk, the speed increase is instantly noticeable. So, I figured that having an option for this would allow Costa to run as best it could on both types of machines.\
 Lastly, all settings are now cached in memory, instead of being read from disk every time they were used.
 
-![The Costa GUI version 1.5.0]({{site.baseurl}}/assets/img/150.png)
+![The Costa GUI version 1.5.0]({{site.url}}/assets/img/150.png)
 
 More information and download links can be found at <https://costa.jacobpalm.dk>.
 
