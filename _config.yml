@@ -30,3 +30,8 @@ defaults:
       type: "posts"
     values:
       permalink: posts/:title/
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:name

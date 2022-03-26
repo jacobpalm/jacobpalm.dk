@@ -71,7 +71,7 @@ div.box {
 
 .buttonbar {
   text-align: center;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .buttonbar a, .buttonbar a:visited {
