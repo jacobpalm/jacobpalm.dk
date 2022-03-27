@@ -56,9 +56,9 @@
     display: none;
   }
 
-  div.nopaddingmobile {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+  div.smallpaddingmobile {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
   }
 
 }
