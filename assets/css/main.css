@@ -42,7 +42,6 @@
 [class*="col-"] {
   float: left;
   padding: 15px;
-  border: 1px solid red;
 }
 
 .row::after {
@@ -57,10 +56,11 @@
     display: none;
   }
 
-  .content {
+  div.nopaddingmobile {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+
 }
 
 body {
@@ -141,7 +141,7 @@ div.box {
   padding-right: 10px;
 }
 
-.menulinks a:hover, a:active {
+.menulinks a:hover, .menulinks a:active {
   background-color: #000 !important;
   color: #fff !important;
 }
