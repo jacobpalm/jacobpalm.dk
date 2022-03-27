@@ -57,11 +57,6 @@
     display: none;
   }
 
-  .mobilenopadding {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-
   .content {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -137,7 +132,7 @@ div.box {
   border: 2px solid #000 !important;
 }
 
-.buttonbar {
+div.buttonbar {
   text-align: center;
 }
 
