@@ -2,11 +2,9 @@
 layout: default
 ---
 
-<div class="centered">
-  <div class="content">
-    <div class="box">
-      <h2>{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}</h2>
-      {{ content }}
-    </div>
+<div class="row box">
+  <div class="col-12">
+    <h2>{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}</h2>
+    {{ content }}
   </div>
 </div>
