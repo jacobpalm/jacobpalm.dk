@@ -57,6 +57,11 @@
     display: none;
   }
 
+  .mobilenopadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
   .content {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -114,8 +119,8 @@ img {
 div.box {
   background-color: #ABABAB;
   color: #000;
-  /* outline: 2px solid #000;
-  outline-offset: -10px; */
+  outline: 2px solid #000;
+  outline-offset: -10px;
 }
 
 .box h2 {
@@ -144,14 +149,6 @@ div.box {
 .buttonbar a:hover, a:active {
   background-color: #000 !important;
   color: #fff !important;
-}
-
-.buttonbar a:before {
-  content: "<\00a0";
-}
-
-.buttonbar a:after {
-  content: "\00a0>";
 }
 
 div.header {
