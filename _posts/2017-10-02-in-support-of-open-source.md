@@ -1,14 +1,14 @@
 ---
 title: 'In support of Open Source'
 layout: post
-img: opensource.jpg
 categories:
   - Costa
 tags:
   - github
-  - MIT license
+  - MIT licens
   - open source
   - source code
+  - kildekode
 ---
 Over the past couple of years I have been using Open Source software increasingly. More and more of the applications I use everyday have been replaced by open source alternatives, and I now only have a handful of proprietary software left. Even my operating system has been replaced by Ubuntu Gnome.
 

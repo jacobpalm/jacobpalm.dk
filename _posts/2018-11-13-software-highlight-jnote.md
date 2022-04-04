@@ -1,6 +1,5 @@
 ---
 title: 'Software highlight: JNote'
-img: jnote_featured2.png
 layout: post
 categories:
   - Software

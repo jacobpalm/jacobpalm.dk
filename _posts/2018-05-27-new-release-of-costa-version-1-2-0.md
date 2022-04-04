@@ -1,6 +1,5 @@
 ---
 title: 'New release of Costa - version 1.2.0'
-img: costa_featured3.png
 layout: post
 categories:
   - Costa
