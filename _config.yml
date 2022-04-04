@@ -15,6 +15,7 @@ social-email: jacobpalmdk@icloud.com # add your Email address
 # Build Settings
 markdown: kramdown
 plugins:
+  - jekyll-sitemap
   - jekyll-paginate
   - jemoji
 
@@ -34,16 +35,3 @@ collections:
   pages:
     output: true
     permalink: /:collection/:name
-  months:
-    - januar
-    - februar
-    - marts
-    - april
-    - maj
-    - juni
-    - juli
-    - august
-    - september
-    - october
-    - november
-    - december

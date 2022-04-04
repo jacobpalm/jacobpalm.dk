@@ -3,10 +3,12 @@ layout: main
 ---
 
 <div class="subheading">
-  Den {{ page.date | date: "%-d" }}.
+  {% assign months = "Januar|Februar|Marts|April|Maj|Juni|Juli|August|September|Oktober|November|December" | split: "|" %}
   {% assign m = page.date | date: "%-m" | minus: 1 %}
-  {{ site.months[m] }}
-  {{ page.date | date: "%Y" }}
+  {% assign day = page.date | date: "%d" %}
+  {% assign month = months[m] %}
+  {% assign year = page.date | date: "%Y" %}
+  Den {{ day }}. {{ month }}, {{ year }}
 </div>
 
 {{content | markdownify}}
