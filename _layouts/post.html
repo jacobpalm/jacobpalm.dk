@@ -5,7 +5,7 @@ layout: main
 <div class="subheading">
   Den {{ page.date | date: "%-d" }}.
   {% assign m = page.date | date: "%-m" | minus: 1 %}
-  {{ site.dmonths[m] }}
+  {{ site.months[m] }}
   {{ page.date | date: "%Y" }}
 </div>
 
