@@ -103,7 +103,7 @@
     <div class="col-12 footer">
       <div class="footerleft hidemobile">
         {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-        /<a href="{{ site.url }}">Home</a>{% for crumb in crumbs offset: 1 %}{% if forloop.last %}&gt;_{% else %}/<a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>{% endif %}{% endfor %}
+        /<a href="{{ site.url }}">Hjem</a>{% for crumb in crumbs offset: 1 %}{% if forloop.last %}&gt;_{% else %}/<a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>{% endif %}{% endfor %}
       </div>
       <div class="footerright">Copyright &copy; {{site.time | date: '%Y'}} <a href="http://github.com/{{site.social-github}}" target="_blank">{{site.author}}</a></div>
       <div style="clear: both;"></div>

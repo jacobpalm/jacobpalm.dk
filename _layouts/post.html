@@ -3,21 +3,17 @@ layout: main
 ---
 
 <div class="subheading">
-  The {% assign day = page.date | date: "%-d"  %}
-  {% case day %}
-    {% when '1' or '21' or '31' %}{{ day }}st
-    {% when '2' or '22' %}{{ day }}nd
-    {% when '3' or '23' %}{{ day }}rd
-    {% else %}{{ day }}th
-  {% endcase %}
-  {{ page.date | date: "of %B, %Y" }}
+  Den {{ page.date | date: "%-d" }}.
+  {% assign m = page.date | date: "%-m" | minus: 1 %}
+  {{ site.dmonths[m] }}
+  {{ page.date | date: "%Y" }}
 </div>
 
 {{content | markdownify}}
 
 <div class="row">
   <div class="col-12 menulinks">
-    <a href="{{ site.url }}/posts">&lt; Back to posts &gt;</a>
-    <a href="{{ site.url }}/">&lt; Go to front page &gt;</a>
+    <a href="{{ site.url }}/posts">&lt; Tilbage til alle indlæg &gt;</a>
+    <a href="{{ site.url }}/">&lt; Tilbage til forsiden &gt;</a>
   </div>
 </div>

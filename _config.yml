@@ -1,13 +1,13 @@
 title: JacobPalm.dk
-description: Personal homepage of Jacob Palm
+description: Jacob Palms personlige hjemmeside
 permalink: ':title/'
 url: "https://jacobpalm.dk" # the base hostname & protocol for your site, e.g. http://example.com
-language: "en"
+language: "da"
 
 # Author Settings
 author: Jacob Palm # add your name
 author-img: jacobpalm.jpg # add your photo
-about-author: The personal homepage of Jacob Palm # add description
+about-author: Jacob Palms personlige hjemmeside # add description
 social-github: jacobpalm # add your Github handle
 social-linkedin: jacobpalmdk # add your Linkedin handle
 social-email: jacobpalmdk@icloud.com # add your Email address
@@ -35,3 +35,17 @@ collections:
   pages:
     output: true
     permalink: /:collection/:name
+
+months:
+  - januar
+  - februar
+  - marts
+  - april
+  - maj
+  - juni
+  - juli
+  - august
+  - september
+  - october
+  - november
+  - december
