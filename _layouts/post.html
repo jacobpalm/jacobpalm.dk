@@ -3,7 +3,7 @@ layout: main
 ---
 
 <div class="subheading">
-  {% assign months = "Januar|Februar|Marts|April|Maj|Juni|Juli|August|September|Oktober|November|December" | split: "|" %}
+  {% assign months = "januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december" | split: "|" %}
   {% assign m = page.date | date: "%-m" | minus: 1 %}
   {% assign day = page.date | date: "%d" %}
   {% assign month = months[m] %}
