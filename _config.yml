@@ -35,17 +35,16 @@ collections:
   pages:
     output: true
     permalink: /:collection/:name
-
-months:
-  - januar
-  - februar
-  - marts
-  - april
-  - maj
-  - juni
-  - juli
-  - august
-  - september
-  - october
-  - november
-  - december
+  months:
+    - januar
+    - februar
+    - marts
+    - april
+    - maj
+    - juni
+    - juli
+    - august
+    - september
+    - october
+    - november
+    - december
