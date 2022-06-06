@@ -12,11 +12,11 @@ Ved at implementere EGA understøttelse løses begge disse problemer. Som en eks
 
 For at tilgodese alle brugere, kan der skiftes frit imellem EGA- og VGA-tilstand, uden at det er nødvendigt at lukke Costa.
 
+![The Costa GUI version 1.6.0]({{site.url}}/assets/img/160.png)
+
 Visuelt er der også en del ændringer. Stort set alle ikoner er blevet lavet om, da mange af dem var "lånt" fra Windows og andet software, og jeg ikke ønsker at have indhold i Costa som ikke enten er lavet af mig selv, eller sendt til mig af andre som selv har lavet det. Alle er i øvrigt velkomne til at sende mig ikoner og temaer til Costa, som kan blive en del af kommende versioner.
 
 Standard temaet er også blevet ændret. Jeg eksperimenterede lidt med farverne til jeg fandt en sammensætning jeg synes godt om. Efterfølgende har jeg så konstateret at temaet minder om [OS/2](https://en.wikipedia.org/wiki/OS/2) 2.0, hvilket ikke var noget jeg sigtede efter, men lad os kalde det en hyldest til OS/2.
-
-![The Costa GUI version 1.6.0]({{site.url}}/assets/img/160.png)
 
 Mere information, og links til download, kan findes på <https://costa.jacobpalm.dk>.
 
