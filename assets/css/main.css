@@ -190,6 +190,9 @@ bt {
 .logo {
 	border: none !important;
 	border-radius: 50%;
+	width: 100%;
+	max-width: 200px;
+	height: auto;
 }
 
 /* BASIC code syntax highlight - sort of */
