@@ -26,14 +26,14 @@ title: Home
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="col-md-8" style="padding-left: 0px;">
-                        <a href="{{"/assets/img/project/" | prepend: site.baseurl | append : project.image}}" class="thumbnail visible-xs-block visible-sm-block"><img src="{{"/assets/img/project/" | prepend: site.baseurl | append : project.image}}" alt="Screenshot of {{ post.title }}"></a>  
+                        <a href="{{"/assets/img/projects/" | prepend: site.baseurl | append : project.image}}" class="thumbnail visible-xs-block visible-sm-block"><img src="{{"/assets/img/projects/" | prepend: site.baseurl | append : project.image}}" alt="Screenshot of {{ post.title }}"></a>  
                         {{ project.content | markdownify }}
                         {% if post.url %}
                             <p><a href="{{post.url | prepend: site.baseurl}}">Read more...</a></p
                         {% endif %}
                     </div>                    
                     <div class="col-md-4 hidden-xs hidden-sm" style="padding-right: 0px;">
-                        <a href="{{"/assets/img/project/" | prepend: site.baseurl | append : project.image}}" class="thumbnail"><img src="{{"/assets/img/project/" | prepend: site.baseurl | append : project.image}}" alt="Screenshot of {{ post.title }}"></a>
+                        <a href="{{"/assets/img/projects/" | prepend: site.baseurl | append : project.image}}" class="thumbnail"><img src="{{"/assets/img/projects/" | prepend: site.baseurl | append : project.image}}" alt="Screenshot of {{ post.title }}"></a>
                     </div>
                 </div>
             </div>
