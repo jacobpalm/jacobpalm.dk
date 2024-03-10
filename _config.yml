@@ -6,3 +6,7 @@ baseURL: https://jacobpalm.dk
 
 kramdown:
   syntax_highlighter: rouge
+
+collections:
+  projects:
+    output: false
