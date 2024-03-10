@@ -187,6 +187,11 @@ bt {
 	border: none !important;
 }
 
+.logo {
+	border: none !important;
+	border-radius: 50%;
+}
+
 /* BASIC code syntax highlight - sort of */
 .highlight  {
 	color: #aaaaaa;
