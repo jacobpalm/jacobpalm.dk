@@ -10,7 +10,7 @@
 
 	<base href="{{ site.baseURL }}">
 	
-	<title>{{ page.title }} - {{ site.name }}</title>
+	<title>{{ site.name }}</title>
 
 	<link rel="shortcut icon" href="{{ site.baseURL }}/favicon.ico">
 
@@ -31,25 +31,7 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#costa-navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
         <a class="navbar-brand" href="index.html">{{ site.name }}</a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="costa-navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="{{ site.baseURL }}/index.html#about" class="hidden-xs">About</a></li>
-		  <li><a href="{{ site.baseURL }}/index.html#projects" class="hidden-xs">Projects</a></li>
-          <li><a href="{{ site.baseURL }}/index.html#links" class="hidden-xs">Links</a></li>
-          
-          <li><a href="{{ site.baseURL }}/index.html#about" data-toggle="collapse" data-target="#costa-navbar-collapse" class="visible-xs">About</a></li>
-		  <li><a href="{{ site.baseURL }}/index.html#projects" data-toggle="collapse" data-target="#costa-navbar-collapse" class="visible-xs">Projects</a></li>
-          <li><a href="{{ site.baseURL }}/index.html#links" data-toggle="collapse" data-target="#costa-navbar-collapse" class="visible-xs">Links</a></li>
-        </ul>
       </div>
     </div>
   </nav>
@@ -59,11 +41,14 @@
 	<div id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8">
+				<div class="col-lg-4">
 				</div>
 
 				<div class="col-lg-4">
-					<p>Copyright 2024 Jacob Palm</p>
+					<p>&copy; 2024 Jacob Palm</p>
+				</div>
+
+				<div class="col-lg-4">
 				</div>
 			</div>
 		</div>
