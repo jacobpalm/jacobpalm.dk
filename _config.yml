@@ -1,37 +1,8 @@
-title: JacobPalm.dk
-description: Jacob Palms personlige hjemmeside
-permalink: ':title/'
-url: "https://jacobpalm.dk" # the base hostname & protocol for your site, e.g. http://example.com
-language: "da"
-
-# Author Settings
-author: Jacob Palm # add your name
-author-img: jacobpalm.jpg # add your photo
-about-author: Jacob Palms personlige hjemmeside # add description
-social-github: jacobpalm # add your Github handle
-social-linkedin: jacobpalmdk # add your Linkedin handle
-social-email: jacobpalmdk@icloud.com # add your Email address
-
-# Build Settings
+name: JacobPalm.dk
+description: Home of Jacob Palm, IT-professional and hobby coder
+author: Jacob Palm
 markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
+baseURL: https://jacobpalm.dk
 
-paginate: 8
-paginate_path: "/posts/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
-
-defaults:
--
-    scope:
-      type: "posts"
-    values:
-      permalink: posts/:title/
-
-collections:
-  pages:
-    output: true
-    permalink: /:collection/:name
+kramdown:
+  syntax_highlighter: rouge

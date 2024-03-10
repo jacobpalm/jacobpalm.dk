@@ -1,210 +1,194 @@
-* {
-  box-sizing: border-box;
-}
-
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-@media only screen and (max-width: 768px) {
-  /* for mobile */
-  div.hidemobile {
-    display: none;
-  }
-
-  div.smallpaddingmobile {
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-  }
-
-}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-  background-color: #000;
-  color: #ABABAB;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: normal;
-  font-size: 1.25em;
-  margin: 0px;
+	background-color: #2f2f2f;
+  	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #555;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	padding-top: 50px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #333;
 }
 
 h1 {
-  display: inline-block;
-  margin: 5px;
-  font-size: 1em;
-  font-weight: normal;
-  border-bottom: 4px double #ABABAB;
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-a h1, a:visited h1 {
-  color: #ABABAB;
-  text-decoration: none;
+h2 {
+	font-size: 24px;
+	margin-bottom: 30px;
 }
 
-a h1:hover, a h1:hover {
-  color: #fff;
-  text-decoration: none;
+h3 {
+	font-size: 18px;
+	margin-bottom: 30px;
 }
 
-h2, h3 {
-  font-size: 1em;
-  font-weight: normal;
-  margin-top: 0px;
-}
-
+/* Paragraph & Typographic */
 p {
-  text-decoration-style: double;
+	line-height: 28px;
+	margin-bottom: 25px;
 }
 
-ol {
-  margin-left: 20px;
+.subheading {
+	font-weight: bold;
+	margin-top: -20px;
+	color: #333;
 }
 
-img {
-  max-width: 90%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.centered {
+	text-align: center;
 }
 
-div.box {
-  background-color: #ABABAB;
-  color: #000;
-  outline: 2px solid #000;
-  outline-offset: -10px;
+/* Links */
+a {
+	color: #0f4c7e;
+	word-wrap: break-word;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-.box h2 {
-  text-align: center;
-  margin-bottom: 0px;
+a:hover,
+a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
 }
 
-.box .subheading {
-  text-align: center;
-  margin-top: 0px;
+a:before,
+a:after {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-.box img {
-  border: 2px solid #000 !important;
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
-.menulinks {
-  text-align: center;
+
+/* Navbar */
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
 }
 
-.menulinks a, .menulinks a:visited {
-  padding-left: 10px;
-  padding-right: 10px;
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #9D9D9D !important;
 }
 
-.menulinks a:hover, .menulinks a:active {
-  background-color: #000 !important;
-  color: #fff !important;
+.navbar-inverse .navbar-toggle {
+    border-color: #9D9D9D;
 }
 
-div.header {
-  background-color: #0000AB;
+
+.progress-bar-theme {
+	background-color: #0f4c7e;
 }
 
-div.backdrop {
-  background-color: #0000AB;
+.centerDropdown {
+	left: 50%;
+	right: auto;
+	text-align: center;
+	transform: translate(-50%, 0);
 }
 
-div.left {
-  width: 100%;
-  text-align: left;
-  background-color: #0000AB;
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-.content a, .content a:visited {
-  color: #fff;
-  text-decoration: none;
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#footer {
+	background-color: #222;
+	padding-top: 50px;
+	padding-bottom: 50px; 
 }
 
-.content a:hover, .content a:active {
-  background-color: #ABABAB;
-  color: #000;
+#footer p {
+	color: white;
 }
 
-.content img {
-  border: 2px solid #ABABAB;
+#footer h3 {
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
-div.footer {
-  background-color: #ABABAB;
-  color: #000;
-  width: 100%;
-  padding: 2px;
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+.grey {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #f2f2f2;
 }
 
-div.footerleft {
-  float: left;
-  padding-left: 10px;
+.white {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
 }
 
-div.footerright {
-  float: right;
-  padding-left: 10px;
-  padding-right: 10px;
+/* Blog Date*/
+bd {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	font-weight: 700;
 }
 
-@media only screen and (min-width: 768px) {
-  /* for desktop */
-  div.footerright {
-    border-left: 2px solid #000;
-  }
+/* Blog Author*/
+ba {
+	font-size: 12px;
+	text-transform: uppercase;
 }
 
-.footer a, footer a:visited {
-  color: #000;
-  text-decoration: none;
+/* Blog Quote */
+.bq {
+	font-size: 22px;
+	padding-top: 30px;
 }
 
-.footer a:hover, footer a:active {
-  background-color: #000;
-  color: #fff;
+/* Blog Tags */
+bt {
+	font-size: 12px;
+}
+
+/* Thumbnail images */
+.thumbnail {
+	border: none !important;
+}
+
+/* BASIC code syntax highlight - sort of */
+.highlight  {
+	color: #aaaaaa;
+	background: #0000aa;
 }
