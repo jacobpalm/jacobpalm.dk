@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="w3-row-padding w3-light-grey w3-padding-32 w3-container w3-center">
+<div class="w3-row-padding darkcolor w3-padding-32 w3-container w3-center">
     <div class="w3-content">
         <h1>About Jacob Palm</h1>
         <p><img src="{{ site.baseURL }}/assets/img/jacobpalm.jpg" class="w3-image logo"></p>
@@ -26,7 +26,7 @@ layout: default
 </div>
 
 {% for project in site.projects %}
-    <div class="w3-row-padding w3-padding-32 w3-container {% cycle 'w3-white', 'w3-light-grey' %} w3-center">
+    <div class="w3-row-padding w3-padding-32 w3-container {% cycle 'lightcolor', 'darkcolor' %} w3-center">
         <div class="w3-content">
             <h1>{{ project.title }}</h1>
             <a href="{{"/assets/img/projects/" | prepend: site.baseurl | append : project.image}}"><img class="w3-image" src="{{"/assets/img/projects/" | prepend: site.baseurl | append : project.image}}" alt="Screenshot of {{ project.title }}"></a>  
