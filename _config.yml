@@ -1,6 +1,8 @@
 name: JacobPalm.dk
-description: Homepage of Jacob Palm, Danish IT-professional, hobby coder and author of the Costa GUI.
 author: Jacob Palm
+description: Homepage of Jacob Palm, Danish IT-professional, hobby coder and author of the Costa GUI.
+keywords: costa, gui, jacob, palm, qbasic, vbdos, visual, basic, walrus, hvalrossen, vb, qb, quickbasic, dos, shell, pascal
+lang: en
 markdown: kramdown
 baseURL: https://jacobpalm.dk
 
