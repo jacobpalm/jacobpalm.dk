@@ -1,41 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{{ site.name }}</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{site.description}}">
-	<meta name="keywords" content="costa, gui, jacob, palm, qbasic, vbdos, visual, basic, walrus, hvalrossen, vb, qb, quickbasic, dos, shell">
+	<title>{{ site.name }}</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{site.description}}">
+	<meta name="keywords" content="costa, gui, jacob, palm, qbasic, vbdos, visual, basic, walrus, hvalrossen, vb, qb, quickbasic, dos, shell, pascal">
 	<meta name="author" content="Jacob Palm">
 
-    <base href="{{ site.baseURL }}">
+	<base href="{{ site.baseURL }}">
 
-    <link rel="shortcut icon" href="{{ site.baseURL }}/favicon.ico">
-
-    <link rel="stylesheet" href="assets/w3.css">
-    <link rel="stylesheet" href="assets/custom.css">
-    
-    <link rel="canonical" href="{{ site.baseURL }}">
+	<link rel="stylesheet" href="{{ site.baseURL }}/assets/jpdk.css">
+	
+	<link rel="canonical" href="{{ site.baseURL }}">
 	<link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.baseURL }}/feed.xml">
 </head>
 <body id="sitetop">
+	<header>
+		<h1><a href="{{ site.baseURL }}">{{ site.name }}</a></h1>
+	</header>
 
-<!-- Navbar -->
-<div class="w3-bar w3-mobile w3-indigo w3-card w3-large">
-    <div class="w3-content">
-        <a href="{{ site.baseURL }}" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-mobile sitetitle">{{ site.name }}</a>
-    </div>
-</div>
-  
-<!-- Content -->
-{{ content }}
+	<!-- Content -->
+	<main>
+		<article>
+			<header>
+				<h2>{{ page.title }}</h2>
+			</header>
+			{{ content }}
+		</article>
+	</main>
 
-<!-- Footer -->
-<footer class="w3-container">  
-    <div class="w3-content w3-center w3-padding-32">
-        &copy; {{ 'now' | date: "%Y" }} Jacob Palm
-    </div>
-</footer>
+	<!-- Footer -->
+	<footer>
+		<div>
+			&copy; {{ 'now' | date: "%Y" }} Jacob Palm
+		</div>
+	</footer>
 
 </body>
+
 </html>

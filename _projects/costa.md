@@ -1,6 +1,6 @@
 ---
 title: "The Costa GUI"
-image: costa.png
+image: proj_costa.png
 link: https://costa.jacobpalm.dk
 github: https://github.com/jacobpalm/costa/
 ---
