@@ -76,6 +76,7 @@ article {
 	color: #eee;
 	width: auto;
 	border: none;
+	border-radius: 8px;
 	display: inline-block;
 	padding: 8px 16px;
 	margin: 16px!important;
